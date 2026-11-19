@@ -1,0 +1,49 @@
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+credentials
+credentials.*
+**/credentials.json
+**/secrets.*
+*.secret
+*token*
+*cookie*
+
+# Captures, dumps, and firmware images
+*.pcap
+*.pcapng
+*.cap
+*.har
+*.bin
+*.img
+*.trx
+*.chk
+*.fw
+captures/
+pcaps/
+firmware/
+firmware-dumps/
+
+# Screenshots and other files that may contain personal data
+screenshots/
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.heic
+
+# Private working notes and filled-in reports
+notes/private/
+reports/*
+!reports/TEMPLATE.md
+
+# Editor and OS
+.DS_Store
+*.swp
+*.log
